@@ -15,33 +15,33 @@ class Paciente(
 {
         fun crearPaciente(){
             print("Ingrese el número de DNI: ")
-            val dni = readln()
+            dni = readln()
 
             print("Ingrese el nombre: ")
-            val nombre = readln()
+            nombre = readln()
             print("Ingrese el apellido: ")
-            val apellido = readln()
+            apell = readln()
 
-            print("Ingrese la fecha de nacimiento (dd/mm/aaaa): ")
-            val fechaNacimiento = readln()
+//         print("Ingrese la fecha de nacimiento (dd/mm/aaaa): ")
+//         fechan = readln()
 
-            print("Ingrese la dirección: ")
-            val direccion = readln()
+//         print("Ingrese la dirección: ")
+//         direccion = readln()
 
-            print("Ingrese la ciudad de procedencia: ")
-            val ciudadProcedencia = readln()
+//         print("Ingrese la ciudad de procedencia: ")
+//         ciudadp = readln()
 
-            // Captura de datos de Paciente
+//       // Captura de datos de Paciente
 
-            print("Ingrese el sexo (M/F): ")
-            val sexo = readln()
+//         print("Ingrese el sexo (M/F): ")
+//         sexo = readln()
 
-            print("Ingrese el grupo sanguíneo: ")
-            val grupoSanguineo = readln()
+//         print("Ingrese el grupo sanguíneo: ")
+//         grupos = readln()
 
-            print("Ingrese los medicamentos a los que es alérgico (separados por comas): ")
-            val alergiasInput = readln()
-            val alergias = alergiasInput.split(",").map { it.trim() }
+//         print("Ingrese los medicamentos a los que es alérgico (separados por comas): ")
+//         val alergiasInput = readln()
+//         listam = alergiasInput.split(",").map { it.trim() }
 
         }
 
